@@ -4,6 +4,9 @@ import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
+
+let color = "red";
+
 const Home = () => {
 	return (
 		<div className="text-center">
@@ -20,11 +23,19 @@ const Home = () => {
 				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
 				love!
 			</p>
-			
+
 			<div className="traffic-ight">
-			
+				const [color, setColor] = useState("red");
+				const [color, setColor] = useState("yellow");
+				const [color, setcolor] = useState("green");
+				const [color, setcolor] = useState("purple");
+
+
+				//render compnents into the DOM
 			</div>
 		</div>
+
+		
 	
 	);
 };
